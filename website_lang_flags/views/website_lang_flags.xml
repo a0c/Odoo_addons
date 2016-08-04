@@ -4,7 +4,7 @@
 
 
 <!-- Top Menu Add search option -->
-<template id="top_menu_flags" inherit_id="website.layout" name="website_lang_menu_option">
+<template id="top_menu_flags" inherit_id="website.layout" name="website_lang_menu_option" website_id="website.default_website">
     <xpath expr="//ul[@id='top_menu']" position="inside">
             <li t-if="(request.website_multilang and len(languages) &gt; 1)" class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
