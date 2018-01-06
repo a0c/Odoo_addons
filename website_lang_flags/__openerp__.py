@@ -32,7 +32,7 @@
     'website': 'https://www.opensur.com',
     'images': ['images/menu_bar.png'],
     'depends': [
-        'website'
+        'website', 'website_multi'
     ],
     'data': [
         'views/website_lang_flags.xml',
